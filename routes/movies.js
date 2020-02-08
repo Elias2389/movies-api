@@ -1,5 +1,4 @@
 const express = require('express');
-const { moviesMock } = require('../utils/mocks/movies');
 const MoviesService = require('../services/movies');
 
 function moviesApi(app) {
