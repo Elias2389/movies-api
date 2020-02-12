@@ -1,6 +1,6 @@
 const express = require('express');
 const MoviesService = require('../services/movies');
-const { movieIdSchema, createMovieSchema, updateMovieSchema} = require('../utils/schemas/moviesSchemas');
+const { movieIdSchema, createMovieSchema, updateMovieSchema} = require('../utils/schemas/moviesSchema');
 const validationHandler = require('../utils/middleware/validationHandler');
 
 function moviesApi(app) {
